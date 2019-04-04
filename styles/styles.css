@@ -1,0 +1,28 @@
+body {
+color: white;
+font-family: sans-serif;
+background-color: royalblue;
+}
+#mybox {
+  border: 20px dotted white;
+  width: 200px;
+  text-align: center;
+  padding: 4em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+p {
+    padding: 0;
+}
+
+}
+@media (min-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
+
+
+
+@media (min-width: 1250px) and (max-width: 500px) {
+}
